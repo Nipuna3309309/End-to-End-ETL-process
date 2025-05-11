@@ -1,0 +1,431 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fee16c43-e183-46de-83dd-f19a704b09f8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Course</ID>
+  <Name>Dim Course</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2300" scrolltop="-3032" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9031" y="22578" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Instructor" left="20" top="7110" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3739" height="4710" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00009b0e000066120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Instructor" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Course" left="169" top="0" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3440" height="4710" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000700d000066120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Course" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1490" top="4410" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK__Dim_Cours__Instr__7908F585]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1889" y="7110" />
+              <point x="1889" y="4710" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2300</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3032</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6dbe2766-2dc2-4e41-a92e-e0e9cc894557">
+    <DataSourceViewID>Data Warehouse Project</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="6eaff26e-7678-44c2-9497-f60f706d7642">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="6ff65518-a568-4ed6-a098-4f8a980e3379">
+      <ID>Course SK</ID>
+      <Name>Course SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="10aa8977-b4c1-4a40-86bf-cd6a4b974e11">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ccab1499-8160-4613-87ff-672a0c1648dd">
+            <TableID>dbo_Dim_Course</TableID>
+            <ColumnID>CourseSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="cc5c70b6-48d9-486d-bdaa-f4fba784ee45">
+          <AttributeID>Instructor SK</AttributeID>
+          <Name>Instructor SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f71205a8-418e-4784-a351-b89e84bcf141">
+          <AttributeID>Alternate Course ID</AttributeID>
+          <Name>Alternate Course ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5071c743-c6a8-4776-a638-f3fe0d2d97d4">
+          <AttributeID>Title</AttributeID>
+          <Name>Title</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="aa59e8f2-4dce-47e4-b14a-a3b2adc14272">
+          <AttributeID>Description</AttributeID>
+          <Name>Description</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="81748f3e-f41e-4096-b368-60029c112e96">
+          <AttributeID>Category</AttributeID>
+          <Name>Category</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="75508798-a97c-495c-ab96-ea2b53cf7211">
+          <AttributeID>Level</AttributeID>
+          <Name>Level</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8910db57-8d1d-4361-a6b2-8a273fadfa98">
+          <AttributeID>Created Date Key</AttributeID>
+          <Name>Created Date Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e773b27c-46cf-4652-84c5-042e03a58067">
+          <AttributeID>Price</AttributeID>
+          <Name>Price</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="aaa642c1-396b-4bd3-84e0-51407fb10e76">
+          <AttributeID>Alternate Instructor ID</AttributeID>
+          <Name>Alternate Instructor ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="22515a09-43cd-4c55-b767-354a824b444d">
+          <AttributeID>Full Name</AttributeID>
+          <Name>Full Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="825b71d8-8810-4846-8373-317e55924afe">
+          <AttributeID>Email</AttributeID>
+          <Name>Email</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="09be2e84-32c1-4389-9be5-ca7a7b00d64b">
+          <AttributeID>Specialization</AttributeID>
+          <Name>Specialization</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d0527f3e-b93e-4227-b30e-b9744de1489c">
+          <AttributeID>Join Date</AttributeID>
+          <Name>Join Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7e6d8521-cce2-4488-9357-b3801c1c200b">
+          <AttributeID>Join Date Key</AttributeID>
+          <Name>Join Date Key</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5d63602e-e606-4d9f-9446-46f8cf00b652">
+      <ID>Instructor SK</ID>
+      <Name>Instructor SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="be6dac19-8f86-48b0-9eac-fa434323120c">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="95316334-7ff6-4e63-8004-8d1ce783386e">
+            <TableID>dbo_Dim_Instructor</TableID>
+            <ColumnID>InstructorSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f5358621-d5fb-40c5-8617-4e3d252a70d6">
+      <ID>Alternate Course ID</ID>
+      <Name>Alternate Course ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cc17dfa6-1fef-4a37-8b3d-5a5a44f62f76">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1edb2731-8710-489a-ae00-ec163085f900">
+            <TableID>dbo_Dim_Course</TableID>
+            <ColumnID>AlternateCourseID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7ccb495a-aac2-4858-80d4-ebd7c72d28db">
+      <ID>Title</ID>
+      <Name>Title</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d3f8cefc-ea56-445c-8f4e-0425d9a92315">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94884f24-b7d7-4bb1-ba17-aeedba8765b7">
+            <TableID>dbo_Dim_Course</TableID>
+            <ColumnID>Title</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b6bad143-21e4-4dd7-b811-0eebf972c85a">
+      <ID>Description</ID>
+      <Name>Description</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="95a2cfb1-7860-4cf6-a885-b358ce816869">
+          <DataType>WChar</DataType>
+          <DataSize>1024</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dda8f40e-6397-4b60-8e78-7688d1184f47">
+            <TableID>dbo_Dim_Course</TableID>
+            <ColumnID>Description</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="da5f5982-c1a7-4c4b-acef-5eff0dc74e2e">
+      <ID>Category</ID>
+      <Name>Category</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e36c6fc4-0918-4023-a64b-d5a6137c4fd6">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ef168689-e3f1-4d6d-aa6c-635714c27469">
+            <TableID>dbo_Dim_Course</TableID>
+            <ColumnID>Category</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="aef7691e-ec0c-40e0-99ef-08a9d985e0e1">
+      <ID>Level</ID>
+      <Name>Level</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="43979357-d629-44ac-a7c6-8a82cf0ea00a">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5d5e635d-5ec1-4125-a6f0-39611d3bd44b">
+            <TableID>dbo_Dim_Course</TableID>
+            <ColumnID>Level</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5726520b-492d-4b60-9405-3f86812729f8">
+      <ID>Created Date Key</ID>
+      <Name>Created Date Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="11de0120-4ee2-4412-b1d1-6ad6a36360f3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c27f3dbe-9b7d-4861-a9f6-41b59ca01937">
+            <TableID>dbo_Dim_Course</TableID>
+            <ColumnID>CreatedDateKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1969dcc9-d14b-46f1-9275-f1ee75539797">
+      <ID>Price</ID>
+      <Name>Price</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b5aa40ab-d738-4610-9792-d011983382d7">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="10860ff7-3cad-423d-bdd6-02ea32a624b5">
+            <TableID>dbo_Dim_Course</TableID>
+            <ColumnID>Price</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="088705d3-bb45-4096-9e9a-f6ef02dc049a">
+      <ID>Alternate Instructor ID</ID>
+      <Name>Alternate Instructor ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7e6ae22f-c724-4963-9954-615aaef6f080">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0a8e5404-a513-4390-87ac-9ef7b2b0bdff">
+            <TableID>dbo_Dim_Instructor</TableID>
+            <ColumnID>AlternateInstructorID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7403e83a-5055-4d52-8a7a-08cf37d1a2b9">
+      <ID>Full Name</ID>
+      <Name>Full Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1b726add-edd7-496e-9ca0-bb24a0035024">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8569aca4-d9fe-4d8d-94ee-6716749d24ce">
+            <TableID>dbo_Dim_Instructor</TableID>
+            <ColumnID>FullName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4f2c14b1-e283-4974-8e4a-9f2aabbc9df8">
+      <ID>Email</ID>
+      <Name>Email</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dfb1a942-44b1-4063-9175-54eec5975b8e">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fef6f166-5eac-49ed-ace7-e2cc74b7d983">
+            <TableID>dbo_Dim_Instructor</TableID>
+            <ColumnID>Email</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8ca7381d-8621-443e-ab41-3803a60d49da">
+      <ID>Specialization</ID>
+      <Name>Specialization</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="97522e21-3e7c-4122-be15-66079f5f44ba">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cb32dbee-665a-4c01-bad2-737459d3e7f2">
+            <TableID>dbo_Dim_Instructor</TableID>
+            <ColumnID>Specialization</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="80f21360-1ccf-4c46-9c27-a55dfbc86a36">
+      <ID>Join Date</ID>
+      <Name>Join Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="37af83ea-22e2-4449-bbe0-3401cf335d00">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e54bf302-adb6-499c-9cdc-5c4aa8d50df3">
+            <TableID>dbo_Dim_Instructor</TableID>
+            <ColumnID>JoinDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="637c2c06-991f-4a4e-9b78-8dd36fc2ecd6">
+      <ID>Join Date Key</ID>
+      <Name>Join Date Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="306d3440-299d-4bfb-b092-ce322cf7aaaf">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b61fefa9-73d7-4ff8-bf87-683c2a88f934">
+            <TableID>dbo_Dim_Instructor</TableID>
+            <ColumnID>JoinDateKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="5c053cc8-c4fc-40bb-94b8-ca14eadc380b">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="898d060e-fc98-4b49-957d-b5a4ceda0014">
+          <ID>Category</ID>
+          <Name>Category</Name>
+          <SourceAttributeID>Category</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="0f0da442-c545-4002-ad4e-c8f7e8ef793e">
+          <ID>Specialization</ID>
+          <Name>Specialization</Name>
+          <SourceAttributeID>Specialization</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="5595fbff-3164-4cb5-b473-5ae88afee625">
+          <ID>Title</ID>
+          <Name>Title</Name>
+          <SourceAttributeID>Title</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

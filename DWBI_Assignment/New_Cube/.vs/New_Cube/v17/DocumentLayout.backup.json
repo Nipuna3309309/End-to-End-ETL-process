@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Nipuna\\University\\New_Cube\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D39F780-515E-12BC-E0A0-BF15D694368A}|New_Cube.dwproj|C:\\Nipuna\\University\\New_Cube\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{2D39F780-515E-12BC-E0A0-BF15D694368A}|New_Cube.dwproj|solutionrelative:Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D39F780-515E-12BC-E0A0-BF15D694368A}|New_Cube.dwproj|C:\\Nipuna\\University\\New_Cube\\Dim Payment.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{2D39F780-515E-12BC-E0A0-BF15D694368A}|New_Cube.dwproj|solutionrelative:Dim Payment.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D39F780-515E-12BC-E0A0-BF15D694368A}|New_Cube.dwproj|C:\\Nipuna\\University\\New_Cube\\Dim Course.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{2D39F780-515E-12BC-E0A0-BF15D694368A}|New_Cube.dwproj|solutionrelative:Dim Course.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D39F780-515E-12BC-E0A0-BF15D694368A}|New_Cube.dwproj|C:\\Nipuna\\University\\New_Cube\\Dim User Enrollment.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{2D39F780-515E-12BC-E0A0-BF15D694368A}|New_Cube.dwproj|solutionrelative:Dim User Enrollment.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D39F780-515E-12BC-E0A0-BF15D694368A}|New_Cube.dwproj|C:\\Nipuna\\University\\New_Cube\\LEarning_platform_cube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{2D39F780-515E-12BC-E0A0-BF15D694368A}|New_Cube.dwproj|solutionrelative:LEarning_platform_cube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dim Date.dim [Design]",
+              "DocumentMoniker": "C:\\Nipuna\\University\\New_Cube\\Dim Date.dim",
+              "RelativeDocumentMoniker": "Dim Date.dim",
+              "ToolTip": "C:\\Nipuna\\University\\New_Cube\\Dim Date.dim [Design]",
+              "RelativeToolTip": "Dim Date.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-07T11:10:11.559Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Payment.dim [Design]",
+              "DocumentMoniker": "C:\\Nipuna\\University\\New_Cube\\Dim Payment.dim",
+              "RelativeDocumentMoniker": "Dim Payment.dim",
+              "ToolTip": "C:\\Nipuna\\University\\New_Cube\\Dim Payment.dim [Design]",
+              "RelativeToolTip": "Dim Payment.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-07T11:10:05.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim Course.dim [Design]",
+              "DocumentMoniker": "C:\\Nipuna\\University\\New_Cube\\Dim Course.dim",
+              "RelativeDocumentMoniker": "Dim Course.dim",
+              "ToolTip": "C:\\Nipuna\\University\\New_Cube\\Dim Course.dim [Design]",
+              "RelativeToolTip": "Dim Course.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-07T11:09:31.058Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim User Enrollment.dim [Design]",
+              "DocumentMoniker": "C:\\Nipuna\\University\\New_Cube\\Dim User Enrollment.dim",
+              "RelativeDocumentMoniker": "Dim User Enrollment.dim",
+              "ToolTip": "C:\\Nipuna\\University\\New_Cube\\Dim User Enrollment.dim [Design]",
+              "RelativeToolTip": "Dim User Enrollment.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-07T11:09:32.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LEarning_platform_cube.cube [Design]",
+              "DocumentMoniker": "C:\\Nipuna\\University\\New_Cube\\LEarning_platform_cube.cube",
+              "RelativeDocumentMoniker": "LEarning_platform_cube.cube",
+              "ToolTip": "C:\\Nipuna\\University\\New_Cube\\LEarning_platform_cube.cube [Design]",
+              "RelativeToolTip": "LEarning_platform_cube.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-07T11:09:24.143Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
